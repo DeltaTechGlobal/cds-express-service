@@ -10,5 +10,5 @@ jobs:
     secrets:
       SWAGGER_PUBLISHER_API_TOKEN: ${{ secrets.SWAGGER_PUBLISHER_API_TOKEN }}
     with:
-      test_to_run: 'uk.gov.hmcts.reform.cds.openapi.OpenAPIPublisherTest'
+      test_to_run: 'com.dtg.cds.openapi.OpenAPIPublisherTest'
       java_version: 17
